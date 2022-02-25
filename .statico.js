@@ -8,11 +8,14 @@
 
 const { syslog } = require('gajn-framework');
 const SocialSharesShortcode = require('./src/shortcodes/socialsharesShortcode');
+const debug = require('debug')('Statico:plugin:socialshares'),
+      debugf = require('debug')('FStatico:plugin:socialshares');
+
 
 module.exports = function(config, options = {}) {
 
     config.addNunjucksShortcode('socialshares', SocialSharesShortcode);
-    syslog.debug(`Added shortcode to Nunjucks: socialshares`);
+    debug(`Added shortcode to Nunjucks: socialshares`);
 
 }
  
