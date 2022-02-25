@@ -9,7 +9,7 @@
 const { syslog } = require('gajn-framework');
 const SocialSharesShortcode = require('./src/shortcodes/socialsharesShortcode');
 const debug = require('debug')('Statico:plugin:socialshares'),
-      debugf = require('debug')('FStatico:plugin:socialshares');
+      debugf = require('debug')('Full.Statico:plugin:socialshares');
 
 
 module.exports = function(config, options = {}) {
