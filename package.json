@@ -1,5 +1,5 @@
 {
-	"name": "gajn-statico-plugin-socialshares",
+	"name": "statico-plugin-socialshares",
 	"version": "0.1.0",
 	"description": "Social media link sharing plugin for Statico SSG.",
 	"homepage": "https://gordonansell.com/statico/",
@@ -8,7 +8,7 @@
 	"main": ".statico.js",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/gordon-ansell/gajn-statico-plugin-socialshares"
+		"url": "git+https://github.com/gordon-ansell/statico-plugin-socialshares"
 	},
 	"authors": [
 		{
@@ -22,7 +22,7 @@
 	],
 	"dependencies": {
         "debug": "*",
-		"gajn-framework": "gordon-ansell/gajn-framework"
+		"js-framework": "gordon-ansell/js-framework"
     },
 	"devDependencies": {},
 	"engines": {
