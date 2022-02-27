@@ -6,7 +6,7 @@
  */
 'use strict';
 
-const { NunjucksShortcode, GAError, syslog, string } = require('gajn-framework');
+const { NunjucksShortcode, GAError, syslog, string } = require('js-framework');
 
 class NunjucksShortcodeSocialSharesError extends GAError {}
 

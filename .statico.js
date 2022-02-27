@@ -6,7 +6,7 @@
  */
 'use strict';
 
-const { syslog } = require('gajn-framework');
+const { syslog } = require('js-framework');
 const SocialSharesShortcode = require('./src/shortcodes/socialsharesShortcode');
 const debug = require('debug')('Statico:plugin:socialshares'),
       debugf = require('debug')('Full.Statico:plugin:socialshares');
