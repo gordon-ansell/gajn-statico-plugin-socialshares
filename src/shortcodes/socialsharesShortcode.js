@@ -62,7 +62,7 @@ class SocialSharesShortcode extends NunjucksShortcode
 
             if (item.icon) {
                 ret += `<a href="${link}" title="Share via ${item.name}.">`;
-                ret += `<img src="${item.icon}" alt="Icon for ${item.name}" />`;
+                ret += `<img src="${item.icon}" alt="Icon for ${item.name}" class="fixed" />`;
                 ret += `</a>`;
             } else {
                 ret += `<a href="${link}" title="Share via ${item.name}.">${item.name}</a>`;
